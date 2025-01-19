@@ -4,7 +4,6 @@ import scipy
 from abtem.core.energy import energy2wavelength
 import hyperspy.api as hs
 from tqdm import tqdm
-import circle_fit as cf
 
 def select_freq_range(exitwave, gmin, gmax, sampling):
     exitwave = np.array(exitwave)
